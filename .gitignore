@@ -1,0 +1,135 @@
+# =====================
+# OS Files
+# =====================
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+
+# =====================
+# IDE / Editor
+# =====================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+*.iml
+*.ipr
+*.iws
+out/
+*.log
+
+# =====================
+# Environment / Secrets
+# =====================
+.env
+.env.local
+.env.*.local
+.env.production
+.env.development
+*.pem
+*.key
+
+# =====================
+# Node.js
+# =====================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+.pnpm-debug.log*
+
+# =====================
+# Python
+# =====================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+.venv/
+venv/
+env/
+ENV/
+*.whl
+pip-log.txt
+pip-delete-this-directory.txt
+.mypy_cache/
+.pytest_cache/
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+
+# =====================
+# Java / Spring
+# =====================
+*.class
+*.jar
+*.war
+*.ear
+target/
+.gradle/
+*.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# =====================
+# .NET / C#
+# =====================
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+packages/
+*.nupkg
+
+# =====================
+# React / Frontend
+# =====================
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.cache/
+.parcel-cache/
+.next/
+.nuxt/
+.vuepress/dist/
+
+# =====================
+# Database
+# =====================
+*.sqlite
+*.sqlite3
+*.db
+*.dump
+
+# =====================
+# Docker
+# =====================
+docker-compose.override.yml
+
+# =====================
+# Misc
+# =====================
+*.bak
+*.tmp
+*.temp
+*.cache
+*.log
+public/uploads/
+uploads/
+temp/
+tmp/
